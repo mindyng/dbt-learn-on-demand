@@ -13,13 +13,13 @@ models:
         description: foreign key for each order placed by customers
       - name: payment_method
         description: "{{ doc('payment_methods') }}"
-        tests:
-          - accepted_values:
-              values:
-                - credit card
-                - coupon
-                - bank_transfer
-                - gift_card
+        # tests:
+        #   - accepted_values:
+        #       values:
+        #         - credit card
+        #         - coupon
+        #         - bank_transfer
+        #         - gift_card
       - name: status
         description: describes whether or not payment was successful for not
         tests:
