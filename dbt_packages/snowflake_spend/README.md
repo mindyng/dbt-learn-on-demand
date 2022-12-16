@@ -18,7 +18,7 @@ In the mean time, you can install it using the git package syntax, which the Git
 ```
 packages:
   - git: https://gitlab.com/gitlab-data/snowflake_spend.git
-    revision: v1.1.0
+    revision: v1.2.0
 ```
 
 You will need to update your `dbt_project.yml` to enable this package.
@@ -34,7 +34,7 @@ You will need a csv called `snowflake_contract_rates.csv` which has two columns:
 These models are documented and tested.
 If you'd like to see what these look like live, you can see them in [the GitLab Data Team's public dbt docs](https://dbt.gitlabdata.com/#!/model/model.snowflake_spend.snowflake_amortized_rates).
 
-Maintainers of this projects are @tayloramurphy and @emilie.
+Maintainers of this projects are @m_walker and @jjstark.
 Reviewers are @mpeychet_.
 
 We include sample Sisense (formerly Periscope) dashboards in the `/analytics` folder.
